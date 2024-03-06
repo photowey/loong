@@ -19,9 +19,22 @@
     },
     "windows": [
       {
-        "title": "loong",
+        "fullscreen": false,
         "width": 800,
-        "height": 600
+        "height": 600,
+        "minHeight": 600,
+        "resizable": true,
+        "title": "Loong Admin",
+        "center": true,
+        "visible": false
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "decorations": false,
+        "center": true,
+        "url": "splashscreen.html",
+        "label": "splashscreen"
       }
     ],
     "security": {
